@@ -1,0 +1,7 @@
+*.suo
+*.cache
+*/Thumbs.db
+/Source/FreeApparelTagsRestrict/bin/*
+/Source/FreeApparelTagsRestrict/obj/*
+/Source/FreeApparelTagsRestrict/FreeApparelTagsRestrict.csproj.user
+/Source/FreeApparelTagsRestrict/FreeApparelTagsRestrict.user

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Apparel Tags Restrict Free</name>
+	<author>ProfoundDarkness</author>
+	<targetVersion>0.17.1557</targetVersion>
+	<description>Version: 0.0.1\n\nEnforces apparel tags on free warmth/cool items for pawns.\nIntention is for mods that add apparel and wish to restrict who gets the different apparel.\nCore doesn't restrict tags in this case.</description>
+</ModMetaData>
