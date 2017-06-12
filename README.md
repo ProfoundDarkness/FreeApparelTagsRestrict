@@ -14,7 +14,7 @@ NOTE: This is currently largely untested...  The patches are installing but I do
 To try the mod simply download the package (clone or download button) and extract into the RimWorld mods folder.  The load order shouldn't matter as the patches are installed on game start and none of the new code will be executed until you are playing the game (in a map).  The only exception to that rule is if another mod tries to patch the same code this mod does but they do so in a manner which blocks this mod's code from running.
 
 ### As a mod author:
-In testing this works as a drop in to the assembly folder of your mod.  I'm currently working on testing some potential issues that can come up if say you are using version 0.0.2 in yours and someone else's mod uses 0.0.1.
+Turns out from reading that dropping this into your mod can produce some conflicts between other mods if they also dropped this into their mod and they are running different versions of the assembly.  Since this is entirely a Harmony mod, Harmony will block different versions from modifying the code repeatedly, as long as I keep using the same HarmonyInstance string (and I've no plans to change that).  It's probably better to leave this as a recommended mod for end users.
 
 ## Anticipated potential errors:
 - Blank screen on game start: The patching failed in a spectacular way.  Most likely to happen when using the mod with a different version of RimWorld.  The log file should have some useful details but is also likely to be VERY big, for now remove the mod from RimWorld.
